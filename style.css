@@ -1,0 +1,73 @@
+.wrapper{
+	width: 1024px;
+	background-image: linear-gradient(to left bottom, #6f68ff, #009dff, #00c5ff, #00e5ff, #00ffe9);
+	margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+a{
+	text-align: center;
+	border-radius: 15px;
+	border: 1px solid black;
+	margin: 0 10px;
+	padding: 10px 10px;
+	background-image: radial-gradient(circle, #ff585f, #ff83a8, #fcb1dd, #f3dbf9, #ffffff);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+header{
+	text-align: center;
+	position: sticky;
+	top:0;
+}
+
+.logo{
+	text-align: center;
+	margin: 20px 0;
+	font-family: 'Dancing Script', cursive;
+	font-size: 18px;
+}
+.text{
+	width: 400px;
+	display: inline-flex;
+	margin: 0 20px;
+}
+td, th, tr{
+	border:1px solid black;
+	text-align: center;
+	height: 70px;
+	margin: 10px 0;
+	width: 100px;
+	vertical-align: top;
+}
+table{
+	text-align: center;
+	margin:0 40px;
+	border-collapse: collapse;
+
+}
+
+#last{
+	border: 1px solid black;
+	padding: 5px 0px 0px 5px;
+}
+.img{
+	height: 140px;
+	width: 140px;
+	display: inline-block;
+	margin: -2px;
+	padding: 0;
+}
+.list{
+	text-align: center;
+	display: inline-block;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+}
+footer{
+	text-align: center;
+}
